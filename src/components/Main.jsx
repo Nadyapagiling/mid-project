@@ -7,7 +7,7 @@ import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import goku from "../../src/assets/goku.gif"
-import Shoaib from '../assets/Shoaib.pdf';
+import Nadya from '../assets/Nadya.pdf';
 
 
 
@@ -15,7 +15,7 @@ import Shoaib from '../assets/Shoaib.pdf';
 const Main = ({ theme }) => {
 
   useEffect(() => {
-    toast.info('Welcome! Shoaib Here 😉, CheckOut My New Project In Work Section ✅', {
+    toast.info('Welcome! Nadya  Here bestieee!!! 😉, CheckOut My New Project In Work Section ✅', {
       position: "bottom-center",
       autoClose: 50000,
       hideProgressBar: false,
@@ -35,7 +35,7 @@ const Main = ({ theme }) => {
       <div className={theme ? ("text-black  font-bold shadow-box-shadow p-5 rounded-2xl text-sm sm:text-3xl ") : ("text-[#ffffff] text-sm sm:text-2xl ")} >
         <p className="text-pink-600 text-xs md:text-xl">Hi, my name is</p>
         <h1 className="text-2xl sm:text-3xl md:text-4xl" >
-          Shoaib Abdul Khadeer
+          Nadya sikamii Pagiling WEllll!!!
         </h1>
         {/* alert component */}
         <ToastContainer limit={1} className="text-sm " />
@@ -62,7 +62,7 @@ const Main = ({ theme }) => {
         <p className="font-serif text-xl font-bold text-red-600 mt-2 sm:text-2xl md:text-4xl flex items-center">
           <Typewriter
             options={{
-              strings: ["Shoaib AK"],
+              strings: ["Nanad!!!"],
               autoStart: true,
               loop: true,
             }}
@@ -73,7 +73,7 @@ const Main = ({ theme }) => {
 
 
         {/* <a href="/assets/hello.txt" download="my_file.txt"> */}
-        <a href={Shoaib} download>
+        <a href={Nadya} download>
           <button
             class="group bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border
          border-blue-500 hover:border-transparent rounded mt-3 flex items-center" >
